@@ -1,0 +1,64 @@
+/* Modelo de caixa*/
+.conteudo{
+     border: 1px solid gray;
+     /* padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 5px;*/
+
+     /* padding: 20px 10px 15px 5px;*/ 
+     /* padding: 20px 10px;*/
+     padding: 20px;
+     margin-top: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-bottom: 20;
+     width: 100px;
+     height: 100px;
+     background: red;
+}
+
+.conteudo1{
+     border: 1px solid blue;
+     padding: 20px;
+     margin-top: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-bottom: 20;
+     width: 100px;
+     height: 100px;
+     float: right;
+     background: blue;
+}
+
+.conteudo2{
+     border: 1px solid blue;
+     padding: 20px;
+     width: 50px;
+     height: 50px;
+     float: left;
+     background: orange;
+}
+
+.esquerda{
+     border: 1px solid blue;
+     padding: 20px;
+     width: 300px;
+     height: 150px;
+     float: left;
+     background: orange;
+}
+
+.esquerda2{
+     border: 1px solid blue;
+     padding: 20px;
+     width: 200px;
+     height: 100px;
+     float: left;
+     background: orange;
+     margin: 10px;
+}
+
+.clear{
+	 clear: left;
+}

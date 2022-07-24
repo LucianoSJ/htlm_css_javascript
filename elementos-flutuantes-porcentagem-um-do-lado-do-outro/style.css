@@ -1,0 +1,8 @@
+.esquerda2{
+     border: 1px solid blue;
+     width: 32%;
+     /*height: 33%;*/
+     float: left;
+     background: orange;
+     margin: 1px;
+}
