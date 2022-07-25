@@ -2,3 +2,22 @@
 	color: blue;
 	background: orange;
 }
+
+.borda{
+	border: 1px solid red;
+	display: inline;
+}
+
+.borda2{
+	border: 1px solid red;
+	display: block;
+}
+
+.borda3{
+	border: 1px solid red;
+}
+
+.borda4{
+	border: 1px solid red;
+	display: inline-block;
+}

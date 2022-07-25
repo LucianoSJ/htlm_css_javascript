@@ -62,3 +62,60 @@
 .clear{
 	 clear: left;
 }
+
+#principal{
+     width: 920px;
+     border: 1px solid red;
+}
+
+.noticia{
+     background: rgb(241, 248, 147);
+     padding: 5px;
+     width: 280px;
+     margin: 5px;
+     float: left;
+}
+
+.clear{
+     clear: both;
+}
+
+.imagens_Galeria{
+    background: rgb(148, 227, 241); 
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
+
+#container{
+     background: white;
+     width: 800px;
+     margin: 10px auto;
+     padding: 10px;
+}
+
+#container2{
+     background: white;
+     width: 800px;
+     margin: 10px auto;
+     padding: 10px;
+}
+
+.format{
+     width: 300px;
+}
+
+.relative{
+     border: 1px solid red;
+     position: relative;
+     /*top, riht, bottom e ledt*/
+     top: 20px;
+     left: 40px;  
+     width: 300px;
+}
+
+body{
+     background: blue;
+}
+
