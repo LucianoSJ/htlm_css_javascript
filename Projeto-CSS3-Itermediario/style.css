@@ -115,6 +115,15 @@
      width: 300px;
 }
 
+.absolute{
+     border: 1px solid red;
+     background: #f2f2f2;
+     position: absolute;
+     width: 300px;
+     top: 1000px;
+     right: 20px;
+}
+
 body{
      background: blue;
 }
