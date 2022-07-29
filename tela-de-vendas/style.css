@@ -1,41 +1,32 @@
-.esquerda{
-     /*padding: 20px;*/
-     /*margin-top: 20px;*/
+
+.azul, .area-esquerda2, .area-esquerda3, .area-direita4, .area-direita5 {background: blue;}
+.esquerda, .area-principal, .area-esquerda2, .area-esquerda3, .area-direita4 {float: left;}
+.margem5, .area-esquerda2, .area-esquerda3, .area-direita4, .area-direita5 {margin: 5px;}
+
+.area-principal{
      width: 50%;
      height: 600px;
      background: pink;
-     float: left;
 }
 
-.esquerda2{
+.area-esquerda2{
      width: 96%;
      height: 100px;
-     background: blue;
-     margin: 5px;
-     float: left;
 }
 
-.esquerda3{
+.area-esquerda3{
      width: 96%;
      height: 360px;
-     background: blue;
-     margin: 5px;
-     float: left;
 }
 
-.esquerda4{
+.area-direita4{
      width: 65%;
      height: 300px;
-     background: blue;
-     margin: 5px;
-     float: left;
 }
 
-.esquerda5{
+.area-direita5{
      width: 96.5%;
      height: 285px;
-     background: blue;
-     margin: 5px;
      clear: both;
 }
 
