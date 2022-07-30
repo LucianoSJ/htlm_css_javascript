@@ -1,0 +1,28 @@
+/* Herança e Especificidade */ 
+body{
+    color: rgb(201, 240, 28);
+    border: 1px solid blue; /* Não é herdado */
+    background: rgb(225, 252, 108); /* Não é herdado */
+}
+
+/* Presendencia o último é o prioridade*/
+
+p{
+    color: red !important; /* define como mais importande */
+}
+
+p{
+    color: rgb(55, 0, 255);
+}
+
+h2{
+    color: rgb(0, 128, 117); /* 3º */
+}
+
+h2.verde{
+    color: green;/* 2º */
+}
+
+h2#amarelo{
+    color: yellow; /* 1º - o id é mais importante do que a class /*
+}
