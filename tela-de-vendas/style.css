@@ -1,4 +1,9 @@
 
+* {
+	margin:0;
+	padding: 0;
+}
+
 .azul, .area-esquerda2, .area-esquerda3, .area-direita4, .area-direita5 {background: blue;}
 .esquerda, .area-principal, .area-esquerda2, .area-esquerda3, .area-direita4 {float: left;}
 .margem5, .area-esquerda2, .area-esquerda3, .area-direita4, .area-direita5 {margin: 5px;}
