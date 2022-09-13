@@ -10,7 +10,11 @@
         <!-- Estilo customizado-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-      <!--[if IE]
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!--[if IE]
     <script src="https://cdnjs.cloudflare.com/ajax/lisbs/
                  html5shiv33.7.3/html5shiv.js"></script>
      <![endif]-->     
@@ -28,8 +32,46 @@
             <li><a href="">Contato</a></li>
           </ul>
       </nav>
-       
-      <footer>
+
+      <article> <!-- Postagem-->
+               <h3>Novos Cursos</h3>
+               <section> <!-- Seção-->
+                       <h4>Curso de Programação</h4>
+                       <p>
+                        Domine as principais tecnologias Front-end, aprenda a produzir layouts digitais,
+                        a criar aplicativos Web e a utilizar ferramentas como HTMAL, CSS, React, entre muitos outros.
+                        Torne-se um desenvolvedor pronto para o mercado e conquiste uma carreira promissora.
+                       </p>
+
+                       <span>
+                             Atualizado em:
+                             <time>12/09/2022</time> <!-- Tag de data-->
+                       </span>
+               </section>
+
+               <section> <!-- Seção-->
+                      <h4>Curso de gráficos</h4>
+                      <p>
+                        Aprenda, com os melhores profissionais da área, esta profissão super valorizada,
+                        e construa sua carreira em um mercado que não para de crescer. Domine todos os aspectos do Design Gráfico,
+                         os softwares mais populares da Adobe, e tenha noções avançadas de Tipografia e
+                         Branding para se tornar um designer hiper-requisitado. Você será capaz de fazer entregas de
+                         peças gráficas desde os primeiros módulos.
+                      </p>
+
+                      <span>
+                        Atualizado em:
+                        <time>12/09/2022</time> <!-- Tag de data-->
+                     </span>
+                </section>
+      </article>
+
+      <aside> <!-- Ao lado -->
+             <h3>Sobre o Autor</h3>
+             <p>Luciano Santos de Jesus, analista de desenvolvimento de sistemas junior</p>
+      </aside>
+
+      <footer> <!-- Rodapé -->
              <p>&copy; 2022 - Luciano Santos de Jesus</p>
       </footer>
 </body>
