@@ -1,21 +1,21 @@
 #conteudo{
     background: #dcdcdc;
-    width: 300px;
-    height: 400px;
+   /* width: 300px; */
+    height: 600px;
     display: flex;
 
     /* row|row-reverse|column|colunm-reverse*/ 
-    flex-direction: row;
+   /* flex-direction: row;
 
     /* nowrap|wrap|wrap-reverseeee*/
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
 
     /* flex-start|flex-end|center|space-between|space-around*/
-    justify-content: center;
+    /* justify-content: center;
 
     /* stretch|center|flex-start|flex-end|baseline*/
-    align-items: center;
-}
+    /* align-items: center;*/
+} 
 
 .item{
     width: 100px;
@@ -23,5 +23,36 @@
     margin: 10px;
     background: white;
     border: 1px solid gray;
-    margin: 10px;
 }
+
+/*.itemMax{
+    flex-grow: 1; /* Definr propoção de espaço ocupado por um item maior*//*
+}*/
+
+/*.itemMin{
+    flex-shrink: 1; /* Definr propoção de espaço ocupado por um item menor*//*
+}*/
+
+.itemTam{
+    flex-basis: 300px; /* Indica o tamanho inicial do flex item antes da distribuição do espaço restante*/
+}
+
+/*.ordem1{
+    order: 1;
+}
+
+.ordem2{
+    order: 2;
+}
+
+.ordem3{
+    order: 3;
+}
+
+.ordem4{
+    order: 4;
+}
+
+.ordem4{
+    order: -1;
+}*/
